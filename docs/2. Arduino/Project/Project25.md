@@ -51,6 +51,7 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes, you can see the following value on serial monitor:
 
 ![](media/wps9-1764812117989-2.jpg)

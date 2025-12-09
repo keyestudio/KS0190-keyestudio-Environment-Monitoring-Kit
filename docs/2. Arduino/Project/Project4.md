@@ -22,6 +22,7 @@ In the previous program, we have done the LED blinking experiment with one LED. 
 ![](media/wps9.jpg)
 
 **4.Sample Code**
+
 Since it is a simulation of traffic lights, the blinking time of each LED should be the same with those in traffic lights system. In this program, we use Arduino delay () function to control delay time, which is much simpler than C language.
 
 ```c

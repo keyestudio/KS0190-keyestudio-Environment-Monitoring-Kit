@@ -192,4 +192,5 @@ void loop()
 ```
 
 **6.Result**
+
 LED segment display displays number 0 to 9.

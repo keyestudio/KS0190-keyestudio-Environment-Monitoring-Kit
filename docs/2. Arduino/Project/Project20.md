@@ -64,4 +64,5 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes to REV4 board, adjust the sensitivity of the sensor through potentiometer. Light up a lighter close to the sensor, and you can see the analog value increases, LED on the sensor is on but L light on REV4 board is off.

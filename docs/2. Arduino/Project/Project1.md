@@ -10,6 +10,7 @@ As for starters, we will begin with something simple. In this project, you only 
 - USB cable x1
 
 **3.Sample Code**
+
 After installing driver for Arduino, let's open Arduino software and compile code that enables Arduino to print "Hello World!" under your instruction. Of course, you can compile code for Arduino to continuously echo "Hello World!" without instruction. A simple If () statement will do the instruction trick. With the onboard LED connected to pin 13, we can instruct the LED to blink first when Arduino gets an instruction and then print "Hello World!”.
 
 ```c

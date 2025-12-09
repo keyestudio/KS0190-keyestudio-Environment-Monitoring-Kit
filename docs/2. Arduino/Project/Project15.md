@@ -16,6 +16,7 @@ With low-voltage scanning, LED dot-matrix displays have advantages such as power
 - Breadboard Jumper Wires
 
 **3.Circuit Connection **
+
 The external view of a dot-matrix is shown as follows:
 
 ![](media/wps30.jpg)
@@ -84,4 +85,5 @@ void clear_(void)// clear screen
 ```
 
 **6.Result**
+
 Burn the program into Uno board The dot-matrix will display 0.

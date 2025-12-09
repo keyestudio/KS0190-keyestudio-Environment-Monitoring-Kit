@@ -42,4 +42,5 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes to REV4 board, you can hear the buzzer ringing and see the L light blinking at the same time with an interval of one second.

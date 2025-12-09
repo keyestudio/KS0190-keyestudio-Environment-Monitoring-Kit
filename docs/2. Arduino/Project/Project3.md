@@ -39,6 +39,7 @@ The input of potentiometer is analog, so we connect it to analog port, and LED t
 ![](media/wps7.jpg)
 
 **4.Sample Code**
+
 In the program compiling process, we will use the analogWrite (PWM interface, analog value) function. In this experiment, we will read the analog value of the potentiometer and assign the value to PWM port, so there will be corresponding change to the brightness of the LED. One final part will be displaying the analog value on the screen. 
 
 You can consider this as the "analog value reading" project adding the PWM analog value assigning part. Below is a sample program for your reference.
@@ -65,4 +66,5 @@ void loop()
 ```
 
 **5.Result**
+
 After downloading the program, when we rotate the potentiometer knob, we can see changes of the displaying value, also obvious change of the LED brightness on the breadboard.

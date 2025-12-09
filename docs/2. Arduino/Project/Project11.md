@@ -13,6 +13,7 @@ In this experiment, we will begin the learning of analog I/O interfaces. On an A
 - Breadboard Jumper Wires 
 
 **3.Connection**
+
 In this experiment, we will convert the resistance value of the potentiometer to analog ones and display it on the screen. This is an application we need to master well for our future experiments.
 Connection circuit as below:
 
@@ -23,6 +24,7 @@ Connection circuit as below:
 Note：The analog interface we use here is interface 0.
 
 **5.Sample Code**
+
 The program compiling is simple. An analogRead () Statement can read the value of the interface. The A/D acquisition of Arduino 328 is in 10 bits, so the value it reads is among 0 to 1023. One difficulty in this project is to display the value on the screen, which is actually easy to learn. First, we need to set the baud rate in voidsetup (). Displaying the value is a communication between Arduino and PC, so the baud rate of the Arduino should match the the one in the PC's software set up. Otherwise, the display will be messy codes or no display at all. In the lower right corner of the Arduino software monitor window, there is a button for baud rate set up. The set up here needs to match the one in the program. The statement in the program is Serial.begin(); enclosed is the baud rate value, followed by statement for displaying. You can either use Serial.print() or Serial.println() statement. 
 
 ```c
@@ -48,6 +50,7 @@ void loop()
 ```
 
 **6.Result**
+
 The sample program uses the built-in LED connected to pin 13. Each time the device reads a value, the LED blinks.
 
 Below is the analog value it reads.

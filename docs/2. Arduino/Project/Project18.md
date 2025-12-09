@@ -1,4 +1,4 @@
-### Project 3 Soil Module
+### Project 18 Soil Module
 
 ![](media/image-20251203173551684.png)
 
@@ -37,4 +37,5 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes to REV4 board, insert the sensor into soil of different humidity, and you can see different analog value through serial port. When the humidity increases, analog value also increases; otherwise, the value decreases.

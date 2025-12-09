@@ -22,6 +22,7 @@ I/O port means interface for INPUT and OUTPUT. Up until now, we have only used i
 ![](media/wps12.jpg)
 
 **4.Sample Code**
+
 Now, let's begin the compiling. When the button is pressed, the LED will be on. After the previous study, the coding should be easy for you. In this program, we add a statement of judgment. Here, we use an if () statement.
 
 Arduino IDE is based on C language, so statements of C language such as while, switch etc. can certainly be used for Arduino program.
@@ -54,4 +55,5 @@ void loop()
 ```
 
 **5.Result**
+
 When the button is pressed, LED is on, otherwise, LED remains off. After the above process, the button controlled LED experiment is completed. The simple principle of this experiment is widely used in a variety of circuit and electric appliances. You can easily come across it in your every day life. One typical example is when you press a certain key of your phone, the backlight will be on.

@@ -39,4 +39,5 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes, open serial monitor, and you can see the value decrease with intensity decreasing. Otherwise, the value increases.

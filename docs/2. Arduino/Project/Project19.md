@@ -39,4 +39,5 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes to REV4 board, open serial monitor, and you can see current value. Add drop on the sensing point and the analog value increases.

@@ -60,4 +60,5 @@ void updateLEDs(int value)
 ```
 
 **5.Result**
+
 After downloading the program, you can see 8 LEDs displaying 8-bit binary number.

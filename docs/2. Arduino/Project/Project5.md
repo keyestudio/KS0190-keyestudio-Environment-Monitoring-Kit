@@ -51,4 +51,5 @@ void loop()
 ```
 
 **5.Result**
+
 You can see the LEDs blink by sequence.

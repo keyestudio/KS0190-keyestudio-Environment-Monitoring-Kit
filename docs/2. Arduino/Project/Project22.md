@@ -3,6 +3,7 @@
 ![](media/image-20251204091730029.png)
 
 **1.Introduction**
+
 PIR Motion Sensor is an instrument converting IR into electrical signal with non-touch sensing. It is composed of detecting unit, Fresnel lens, interference filter , adaptor of field effect transistor and est.
 
 It senses IR with pyroelectric effect which means when electron of heated object moves from high temperature to low temperature, the object will produce current or its electric charge will pile up. First the lens receives IR from testing object; next the sensor converts IR into electrical signal ; finally, the circuit will process the signal.
@@ -40,6 +41,7 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes, open serial monitor, and you can see current value is 0 when no sunlight. When putting the sensor under sunlight, you can see the intensity of sunlight displaying on the monitor.
 
 ![](media/wps3-1764811287065-3.jpg)

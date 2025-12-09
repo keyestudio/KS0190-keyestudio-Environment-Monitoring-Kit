@@ -45,4 +45,5 @@ void loop()
 ```
 
 **5.Result**
+
 After uploading the codes to REV4 board, if there is someone moving around the sensor, the L light on REV4 board is on; if none, L light is on for some time and then off.
